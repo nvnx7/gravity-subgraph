@@ -1,8 +1,8 @@
 import {
   NewGravatar,
   UpdatedGravatar
-} from "../generated/Gravity/Gravity"
-import { Gravatar } from "../generated/schema"
+} from "../generated/Gravity/Gravity";
+import { Gravatar } from "../generated/schema";
 
 export function handleNewGravatar(event: NewGravatar): void {
   // Use id field from emitted event as unique id for the entity
