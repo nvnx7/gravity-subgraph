@@ -1,6 +1,6 @@
-type ExampleEntity @entity {
+type Gravatar @entity {
   id: ID!
-  count: BigInt!
-  id: BigInt! # uint256
-  owner: Bytes! # address
+  owner: Bytes
+  displayName: String
+  imageUrl: String
 }
